@@ -1,0 +1,2 @@
+mtgjson/AllPrintings.json filter=lfs diff=lfs merge=lfs -text
+mtgjson/input.txt filter=lfs diff=lfs merge=lfs -text
