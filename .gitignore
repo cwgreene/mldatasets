@@ -1,1 +1,5 @@
-mtgjson/AllPrintings.json
+data/mtgjson/AllPrintings.json
+*.bin
+*.txt
+*.pkl
+*.bak
