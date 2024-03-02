@@ -38,4 +38,5 @@ a = Node("a", {"A":.80,"a":.20})
 b = Node("b", {"B":.25,"b":.75})
 
 m = Markov({a: {a: .5, b:.5}, b: {a: .5, b:.5}})
-print("".join(m.sample(10)))
+for i in range(1024):
+    print("".join(m.sample(100)))

@@ -6,7 +6,7 @@ import pickle
 import numpy as np
 
 input_file_path = os.path.join(os.path.dirname(__file__), "input.txt")
-1
+
 if not os.path.exists(input_file_path):
     with open("./AllPrintings.json") as infile:
         js = json.load(infile)
